@@ -13,10 +13,10 @@ namespace MT_TAIIB_WebApi.Model
     [ForeignKey(nameof(User_Id))]
     public User User { get; set; }
     public DateTime DateTime { get; set; }
-    public IEnumerable<OrderPosition> Positions { get; set; }
+    public IEnumerable<OrderPosition> OrderPositions { get; set; }
         public void Configure(EntityTypeBuilder<Order> builder)
         {
-            builder.HasMany(x => x.Positions)
+            builder.HasMany(x => x.OrderPositions)
                 .WithOne(x => x.Order)
                 .OnDelete(DeleteBehavior.Cascade);
             builder.HasOne(x => x.User)
