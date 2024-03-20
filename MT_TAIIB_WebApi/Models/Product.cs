@@ -14,6 +14,6 @@ namespace MT_TAIIB_WebApi.Model
     [MaxLength(1000)]
     public string Image { get; set; }
     public bool IsActive { get; set; }
-    IEnumerable<BasketPosition> BasketPositions { get; set; }
+    public IEnumerable<BasketPosition> BasketPositions { get; set; }
   }
 }

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -13,6 +14,14 @@ namespace MT_TAIIB_WebApi.Model
     public User User { get; set; }
     public DateTime DateTime { get; set; }
     public IEnumerable<OrderPosition> Positions { get; set; }
-    
-  }
+        public void Configure(EntityTypeBuilder<Order> builder)
+        {
+            builder.HasMany(x => x.Positions)
+                .WithOne(x => x.Order)
+                .OnDelete(DeleteBehavior.Cascade);
+            builder.HasOne(x => x.User)
+                .WithMany(x => x.Orders)
+                .OnDelete(DeleteBehavior.Restrict);
+        }
+    }
 }
