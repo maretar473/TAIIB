@@ -2994,9 +2994,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\source\\repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\Student\\source\\repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\obj\\",
       "projectStyle": "PackageReference",
@@ -3023,8 +3023,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj"
+            "C:\\Users\\Student\\source\\repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Student\\source\\repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj"
             }
           }
         }
