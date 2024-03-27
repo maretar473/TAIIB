@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BLL.DTO
 {
-    internal class ProductReqDTO
+    public class ProductReqDTO
     {
         [MaxLength(50)]
         public string Name { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.DTO
 {
-    internal class BasketPositionReqDTO
+    public class BasketPositionReqDTO
     {
         public int UserId { get; set; }
         public int ProductId { get; set; }

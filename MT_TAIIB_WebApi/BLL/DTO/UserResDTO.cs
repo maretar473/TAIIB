@@ -8,7 +8,7 @@ using static MT_TAIIB_WebApi.Model.User;
 
 namespace BLL.DTO
 {
-    internal class UserResDTO
+    public class UserResDTO
     {
         public int Id { get; set; }
         public string Login { get; set; }

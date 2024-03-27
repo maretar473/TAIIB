@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BLL.DTO
 {
-    internal class ProductResDTO
+    public class ProductResDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

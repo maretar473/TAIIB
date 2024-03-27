@@ -7,7 +7,7 @@ using BLL.DTO;
 
 namespace BLL
 {
-    internal interface IOrder
+    public interface IOrder
     {
         IEnumerable<OrderResDTO> GetAllOrders();
         IEnumerable<OrderResDTO> GetUserOrders(int userId);

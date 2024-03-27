@@ -7,7 +7,7 @@ using BLL.DTO;
 
 namespace BLL
 {
-    internal interface IBasketPosition
+    public interface IBasketPosition
     {
         BasketPositionResDTO AddProductToBasket(int userId, int productId, int quantity);
         void RemoveProductFromBasket(int basketId);

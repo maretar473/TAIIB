@@ -7,7 +7,7 @@ using BLL.DTO;
 
 namespace BLL
 {
-    internal interface IProduct
+    public interface IProduct
     {
         IEnumerable<ProductResDTO> GetProducts(int page, int pageSize, string nameFilter, bool? isActiveFilter, string sortBy, bool isSortAscending);
         ProductResDTO AddProduct(ProductReqDTO productDTO);

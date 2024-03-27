@@ -9,7 +9,7 @@ using static MT_TAIIB_WebApi.Model.User;
 
 namespace BLL.DTO
 {
-    internal class UserReqDTO
+    public class UserReqDTO
     {
         [MaxLength(100)]
         public string Login { get; set; }
