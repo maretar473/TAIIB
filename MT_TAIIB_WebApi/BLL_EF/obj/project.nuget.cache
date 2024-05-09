@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hiSK+Jnlf2lDVZZMpqMO3icwiuSaVLUP0EHeyUX7vYbOULWrBkUMcmZBi59VVOZELi97pO80EvRZLGnVg6fHsA==",
+  "dgSpecHash": "r1iTUBOHMH24x0defYabP3uyRKWQ+C9p+/Zu1X45wqgrJL3ISadJbkURlsAylVhOqsiojlFCG3E6bqp5q+qDzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\source\\repos\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\BLL_EF.csproj",
+  "projectFilePath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\BLL_EF\\BLL_EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

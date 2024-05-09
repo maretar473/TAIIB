@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ using BLL.DTO;
 using DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
 using MT_TAIIB_WebApi.Model;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace BLL_EF
 {
@@ -15,6 +17,16 @@ namespace BLL_EF
     {
         private WebshopContext _context = new WebshopContext();
         
+        public ProductResDTO GetProduct(int id)
+        {
+            var product = _context.Products.Find(id);
+            if (product == null)
+            {
+                throw new ArgumentException("Niez znaleziono produktu");
+            }
+            return new ProductResDTO {  };
+        }
+
         public void ActivateProduct(int productId)
         {
             var product = _context.Products.Find(productId);
