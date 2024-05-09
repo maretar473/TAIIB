@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi.csproj": {}
+    "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
-        "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -36,8 +36,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj"
+              "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\Models\\Models.csproj"
               }
             }
           }
@@ -46,6 +46,83 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\DataAccesLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -89,18 +166,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
+    "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -131,6 +208,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -174,18 +256,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi.csproj": {
+    "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi.csproj",
         "projectName": "MT_TAIIB_WebApi",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi.csproj",
+        "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\MT_TAIIB_WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -210,11 +292,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj"
+              "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB-main\\MT_TAIIB_WebApi\\Models\\Models.csproj"
               }
             }
           }
@@ -223,6 +308,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -277,7 +367,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
