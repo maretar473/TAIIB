@@ -4,12 +4,11 @@ using BLL.DTO;
 
 namespace MT_TAIIB_WebApi.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
+    /*[ApiController]
+    [Route("api/[controller]")]*/
     public class OrderController : Controller
     {
-        private readonly IOrder _orderService;
-
+        /*readonly IOrder _orderService;
         public OrderController(IOrder orderService)
         {
             _orderService = orderService;
@@ -18,18 +17,10 @@ namespace MT_TAIIB_WebApi.Controllers
         [HttpGet]
         public IActionResult GetAllOrders()
         {
-            try
-            {
-                var orders = _orderService.GetAllOrders();
-                return Ok(orders);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.Message);
-            }
-        }
+            return (IActionResult)_orderService.GetAllOrders();
+        }*/
 
-        [HttpGet("{id}")]
+        /*[HttpGet("{id}")]
         public IActionResult GetOrder(int id)
         {
             try
@@ -44,9 +35,9 @@ namespace MT_TAIIB_WebApi.Controllers
             {
                 return StatusCode(500, ex.Message);
             }
-        }
+        }*/
 
-        [HttpGet("{id}/positions")]
+        /*[HttpGet("{id}/positions")]
         public IActionResult GetOrderPositions(int id)
         {
             try
@@ -58,9 +49,9 @@ namespace MT_TAIIB_WebApi.Controllers
             {
                 return StatusCode(500, ex.Message);
             }
-        }
+        }*/
 
-        [HttpGet("user/{userId}")]
+        /*[HttpGet("user/{userId}")]
         public IActionResult GetUserOrders(int userId)
         {
             try
@@ -72,7 +63,7 @@ namespace MT_TAIIB_WebApi.Controllers
             {
                 return StatusCode(500, ex.Message);
             }
-        }
+        }*/
 
         public IActionResult Index()
         {

@@ -4,11 +4,11 @@ using BLL.DTO;
 
 namespace MT_TAIIB_WebApi.Controllers
 {
-    [ApiController]
-    [Route("api/controller")]
+    /*[ApiController]
+    [Route("api/controller")]*/
     public class ProductController : Controller
     {
-        private readonly IProduct _productService;
+        /*private readonly IProduct _productService;
 
         public ProductController(IProduct productService)
         {
@@ -101,7 +101,7 @@ namespace MT_TAIIB_WebApi.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
-
+*/
 
         public IActionResult Index()
         {
