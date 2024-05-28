@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\BLL_EF.csproj": {}
+    "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\BLL_EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL\\BLL.csproj": {
+    "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -36,8 +34,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj"
+              "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj"
               }
             }
           }
@@ -76,25 +74,23 @@
         }
       }
     },
-    "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\BLL_EF.csproj": {
+    "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\BLL_EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\BLL_EF.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\BLL_EF.csproj",
         "projectName": "BLL_EF",
-        "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\BLL_EF.csproj",
+        "projectPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\BLL_EF.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL_EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -108,11 +104,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\BLL\\BLL.csproj"
+              "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -151,25 +147,23 @@
         }
       }
     },
-    "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\DataAccesLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -183,8 +177,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj"
+              "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj"
               }
             }
           }
@@ -245,25 +239,23 @@
         }
       }
     },
-    "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
+    "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\TAIIB\\MT_TAIIB_WebApi\\Models\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Documents\\GitHub\\ok\\TAIIB\\MT_TAIIB_WebApi\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

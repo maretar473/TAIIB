@@ -21,5 +21,45 @@ namespace BLL_EF
         {
             _context = context;
         }
+
+        public void ActivateProduct(int productId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ProductDTO AddProduct(ProductDTO productDTO)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeleteProduct(int productId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ProductDTO GetProduct(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ProductDTO GetProduct(int page, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ProductDTO GetProduct(string name, bool? isActive)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ProductDTO GetProduct(string sortBy)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ProductDTO UpdateProduct(int productId, ProductDTO productDTO)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

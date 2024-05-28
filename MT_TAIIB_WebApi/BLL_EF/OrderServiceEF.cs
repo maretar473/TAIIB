@@ -19,5 +19,24 @@ namespace BLL_EF
             _context = context;
         }
 
+        public OrderDTO CreateOrder(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<OrderDTO> GetAllOrders()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<OrderPositionDTO> GetOrderPositions(int orderId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<OrderDTO> GetUserOrders(int userId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

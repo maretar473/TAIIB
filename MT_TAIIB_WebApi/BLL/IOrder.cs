@@ -9,6 +9,9 @@ namespace BLL
 {
     public interface IOrder
     {
-        
+        OrderDTO CreateOrder(int userId);
+        IEnumerable<OrderDTO> GetAllOrders();
+        IEnumerable<OrderDTO> GetUserOrders(int userId);
+        IEnumerable<OrderPositionDTO> GetOrderPositions(int orderId);
     }
 }

@@ -9,6 +9,9 @@ namespace BLL
 {
     public interface IBasketPosition
     {
-        
+        BasketPositionDTO AddProductToBasket(int userId, int productId, int quantity);
+        void RemoveProductFromBasket(int basketId);
+        void UpdateBusketItemQuantity(int basketId, int quantity);
+        IEnumerable<BasketPositionDTO> GetUserBasket(int userId);
     }
 }
